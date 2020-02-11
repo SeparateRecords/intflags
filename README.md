@@ -14,6 +14,9 @@ Create any number of intflags by using `intflags.get()`. You can create a union 
 >>> import intflags
 
 >>> a, b, c = intflags.get(3)
+>>> bin(a | b | c)
+'0b111'
+
 >>> flags = a | b
 >>> a in flags
 True

@@ -85,7 +85,7 @@ class _Flag:
         value = int(self) & ~int(other)
         return self._new(value)
 
-    def __int__(self):
+    def __index__(self):
         return self._i
 
     def __str__(self):
