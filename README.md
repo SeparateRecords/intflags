@@ -53,3 +53,7 @@ Traceback (most recent call last):
   ...
 ValueError: Flags must share a namespace to create a union.
 ```
+
+## License
+
+IntFlags is licensed under the ISC license. A copy of the license is included in the root of this repository and in the source of the module.
