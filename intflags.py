@@ -84,7 +84,7 @@ class IntFlag(int):
         if not self.check(other):
             msg = "Flags must share a namespace to create a union."
             raise ValueError(msg)
-        return self.make(int(self) | int(other))
+        return self.make(int.__or__(self, other))
 
     def __add__(self, other):
         return self.__or__(other)
