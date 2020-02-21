@@ -100,7 +100,7 @@ class IntFlag(int):
         return str(int(self))
 
     def __repr__(self):
-        return "<Flag ({0}, ns={0.ns})>".format(self)
+        return "<Flag [{0}, ns={0.ns}]>".format(self)
 
 
 # The global namespace index to ensure no two sets of flags have the same ns.
