@@ -106,12 +106,12 @@ class IntFlag(int):
 _NS_IDX = count()
 
 
-def get(n):
+def get(n, use_ns=True):
     """Create ``n`` flags in the same namespace, optionally with a leading sentinel.
 
     If ``n == 1``, a single flag is returned (not as an iterable).
     """
-    ns = next(_NS_IDX)
+    ns = next(_NS_IDX) if use_ns else None
 
     if n == 1:
         return IntFlag(1, ns)
