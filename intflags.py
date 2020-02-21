@@ -30,7 +30,7 @@ In a class
 
 # ISC License
 #
-# Copyright, Robert "SeparateRecords" Cooper
+# Copyright (c) 2020, Robert "SeparateRecords" Cooper
 #
 # Permission to use, copy, modify, and/or distribute this software for any
 # purpose with or without fee is hereby granted, provided that the above
