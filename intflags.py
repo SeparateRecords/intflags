@@ -53,6 +53,8 @@ from itertools import count
 
 
 class IntFlag(int):
+    """Create an int flag, optionally using a namespace."""
+
     def __new__(cls, i, ns=None):
         instance = super().__new__(cls, i)
         instance.ns = ns
