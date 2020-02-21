@@ -47,7 +47,7 @@ In a class
 __all__ = ["IntFlag", "get", "empty"]
 __author__ = "SeparateRecords <me@rob.ac>"
 __copyright__ = "(c) Robert Cooper, 2020"
-__version__ = "1.1.0"
+__version__ = "2.0.0"
 
 from itertools import count
 
